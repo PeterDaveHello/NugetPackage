@@ -16,6 +16,6 @@
     </releaseNotes>
     <copyright>Yuri Sidorov</copyright>
     <tags>transmission transmission-gui torrent download magnet admin</tags>
-    <packageSourceUrl>https://github.com/mom1/NugetPackages/tree/master/transgui</packageSourceUrl>
+    <packageSourceUrl>https://github.com/transmission-remote-gui/NugetPackage</packageSourceUrl>
   </metadata>
 </package>
