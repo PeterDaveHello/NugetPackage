@@ -13,7 +13,7 @@ cd ./src
 
 echo ===== Push "%CURRENT_DIR_NAME%" package ====
 
-set "PACKAGE_NANE=%CURRENT_DIR_NAME%"
+set "PACKAGE_NANE=transgui"
 set "SRC_DIR=%~dp0"
 set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
