@@ -13,13 +13,13 @@ cd ./src
 
 echo ===== Test (install form local source) "%CURRENT_DIR_NAME%" package ====
 
-set "PACKAGE_NANE=%CURRENT_DIR_NAME%"
+set "PACKAGE_NANE=transgui"
 set "SRC_DIR=%~dp0"
 set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
 cd %BUILD_DIR%
 
-call choco install -fvy %PACKAGE_NANE% -source %CD% -version 5.15.3
+call choco install -fvy %PACKAGE_NANE% -source %CD% -version 5.15.4
 
 if not "%1" == "1" (
     pause

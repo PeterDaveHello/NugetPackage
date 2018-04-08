@@ -11,21 +11,15 @@ cd ..\
 for %%a in (".") do set CURRENT_DIR_NAME=%%~na
 cd ./src
 
-echo ===== Build "%CURRENT_DIR_NAME%" package ====
+echo ===== Test (uninstall form local source) "%CURRENT_DIR_NAME%" package ====
 
 set "PACKAGE_NANE=transgui"
 set "SRC_DIR=%~dp0"
-set "BUILD_DIR=..\..\build\%PACKAGE_NANE%"
+set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
-cd nuspec
-if exist "%BUILD_DIR%" (
-    for %%i IN (%BUILD_DIR%\*) DO del %%i
-) else (
-    mkdir %BUILD_DIR%
-)
+cd %BUILD_DIR%
 
-rem  Create package.
-for %%i IN (%cd%\*.nuspec) DO call choco pack -y %%i --outputdirectory %BUILD_DIR%
+call choco uninstall -vy %PACKAGE_NANE% -source %CD% -version 5.15.4
 
 if not "%1" == "1" (
     pause
