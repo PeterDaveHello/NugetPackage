@@ -15,7 +15,7 @@
     <releaseNotes>[Release Notes](https://github.com/transmission-remote-gui/transgui/releases)
     </releaseNotes>
     <copyright>Yuri Sidorov and Transmission Remote GUI working group</copyright>
-    <tags>transmission transmission-gui torrent download magnet admin</tags>
+    <tags>transmission transmission-gui torrent BitTorrent remote p2p download magnet admin</tags>
     <packageSourceUrl>https://github.com/transmission-remote-gui/NugetPackage</packageSourceUrl>
   </metadata>
 </package>
