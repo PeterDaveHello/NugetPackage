@@ -4,7 +4,7 @@
     <id>transgui</id>
     <version>5.15.4</version>
     <title>Transmission Remote GUI</title>
-    <authors>Yuri Sidorov</authors>
+    <authors>Yuri Sidorov and Transmission Remote GUI working group</authors>
     <owners>MOM</owners>
     <licenseUrl>https://raw.githubusercontent.com/transmission-remote-gui/transgui/master/COPYING.txt</licenseUrl>
     <projectUrl>https://github.com/transmission-remote-gui/transgui</projectUrl>
@@ -14,7 +14,7 @@
     <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
     <releaseNotes>[Release Notes](https://github.com/transmission-remote-gui/transgui/releases)
     </releaseNotes>
-    <copyright>Yuri Sidorov</copyright>
+    <copyright>Yuri Sidorov and Transmission Remote GUI working group</copyright>
     <tags>transmission transmission-gui torrent download magnet admin</tags>
     <packageSourceUrl>https://github.com/transmission-remote-gui/NugetPackage</packageSourceUrl>
   </metadata>
