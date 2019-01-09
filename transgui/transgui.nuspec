@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>transgui</id>
-    <version>5.15.4</version>
+    <version>5.16.0</version>
     <title>Transmission Remote GUI</title>
     <authors>Yuri Sidorov and Transmission Remote GUI working group</authors>
     <owners>MOM</owners>
@@ -12,8 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Transmission Remote GUI is a feature rich cross platform front-end to remotely control a Transmission Bit-Torrent client daemon via its RPC protocol. Transmission Remote GUI is faster and has more functionality than the built-in Transmission web interface.</description>
     <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
-    <releaseNotes>[Release Notes](https://github.com/transmission-remote-gui/transgui/releases)
-    </releaseNotes>
+    <releaseNotes>[Release Notes](https://github.com/transmission-remote-gui/transgui/releases/tag/v5.16.0)</releaseNotes>
     <copyright>Yuri Sidorov and Transmission Remote GUI working group</copyright>
     <tags>transmission transmission-gui torrent BitTorrent remote p2p download magnet admin</tags>
     <packageSourceUrl>https://github.com/transmission-remote-gui/NugetPackage</packageSourceUrl>
