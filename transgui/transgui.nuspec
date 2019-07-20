@@ -8,7 +8,7 @@
     <owners>MOM</owners>
     <licenseUrl>https://raw.githubusercontent.com/transmission-remote-gui/transgui/master/COPYING.txt</licenseUrl>
     <projectUrl>https://github.com/transmission-remote-gui/transgui</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/transmission-remote-gui/NugetPackage/e7b218a5/icon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/transmission-remote-gui/NugetPackage/659575a518e71d62a2a7f76a5c51096ba56f456c/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Transmission Remote GUI is a feature rich cross platform front-end to remotely control a Transmission Bit-Torrent client daemon via its RPC protocol. Transmission Remote GUI is faster and has more functionality than the built-in Transmission web interface.</description>
     <summary>Cross platform remote GUI for the Transmission Bit-Torrent client</summary>
