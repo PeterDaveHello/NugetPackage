@@ -21,13 +21,13 @@ function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $re    = '\.exe$'
-    $url   = $download_page.links | ? href -match $re | select -Expand href -First 1 | % { 'https://github.com' + $_ }
-    $version = (Split-Path $url -Parent).Split("v")[1]
+    $url32   = $download_page.links | ? href -match $re | select -Expand href -First 1 | % { 'https://github.com' + $_ }
+    $version = (Split-Path $url32 -Parent).Split("v")[1]
     $url64   = "https://github.com/transmission-remote-gui/transgui/releases/download/v$version/transgui-$version-setup_64bit.exe"
 
     @{
         Version      = $version
-        URL32        = $url
+        URL32        = $url32
         URL64        = $url64
         ReleaseNotes = "https://github.com/transmission-remote-gui/transgui/releases/tag/v${version}"
     }
